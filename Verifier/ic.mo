@@ -6,7 +6,7 @@ public type CanisterSettings = {
     controllers : [Principal];
     compute_allocation : Nat;
     memory_allocation : Nat;
-    freezing_threshold : Nat;
+    freezing_threshold : Nat
 };
 
 public type ManagementCanister = actor {
