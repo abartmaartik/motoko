@@ -21,7 +21,7 @@ public type StudentProfile = {
     team : Text;
     graduate : Bool;
 };
-// Part 1
+// Part
 var studentProfileStore=HashMap.HashMap<Principal,StudentProfile>(5,Principal.equal,Principal.hash);  
 
 public shared ({caller})func addMyProfile(profile:StudentProfile):async Result.Result<(),Text>{
