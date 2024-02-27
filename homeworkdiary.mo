@@ -40,7 +40,7 @@ public func updateHomework (id:Nat,homework:Homework):async Result.Result<(),Tex
 
 
 public func markAsCompleted (id:Nat):async Result.Result<(),Text> {
-    let result:?Homework=homeworkDiary.getOpt(id);
+    let result:Homework=homeworkDiary.getOpt(id);
     switch(result) {
         case(null) { #err("Error on Index" )};  
         case(?content) { homeworkDiary.put(id,{content with completed=true}); #ok() };
