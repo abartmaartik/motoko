@@ -12,7 +12,7 @@ actor Calculator {
     
     // Step 3 - Implement sub 
     public func sub(x : Float) : async Float {
-        counter:= counter - x;
+        counter:= counter  - x;
         return counter;
     };
     
