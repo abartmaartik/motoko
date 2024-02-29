@@ -21,7 +21,7 @@ public type Content = {
 };
 
 
-type Message={
+type Message = {
 vote : Int;
 content : Content;
 creator : Principal;
