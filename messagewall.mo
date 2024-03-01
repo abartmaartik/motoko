@@ -35,7 +35,7 @@ public shared ({ caller }) func writeMessage(c : Content) : async Nat {
     let current : Nat = messageId;
     messageId+=1;
     let newMessage : Message = {
-      content = c;
+      content = d;
       vote = 0;
       creator = caller;
     };
