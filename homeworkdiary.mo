@@ -34,7 +34,7 @@ public func updateHomework (id:Nat,homework:Homework):async Result.Result<(),Tex
     let result:?Homework=homeworkDiary.getOpt(id);
     switch(result) {
         case(null) { #err("Error on Index" )};  
-        case(?content) { homeworkDiary.put(id,homework); #ok() };
+        case(?content) { homeworkDiary.put(id,homework); ok() };
      };
 };
 
