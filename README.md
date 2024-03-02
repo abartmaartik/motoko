@@ -1,2 +1,2 @@
-# MyMotoko
-motoko bootcamp Day1 to Day10 Project 
+# Motoko
+motoko bootcamp Day1 to Day5 Project 
