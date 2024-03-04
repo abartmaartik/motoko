@@ -5,7 +5,7 @@ import Result "mo:base/Result";
 import Array "mo:base/Array";
 
 
-actor HomeworkDiary {
+actor HomeworkDiary  {
 
 type Homework={
 title: Text;
