@@ -18,7 +18,7 @@ var homeworkDiary=Buffer.Buffer<Homework>(0);
 
 public func addHomework (homework:Homework):async Nat{
     homeworkDiary.add(homework);
-    return homeworkDiary.size()-1;
+    return homeworkDiary.size()+1;
 };
 
 public query func getHomework (index:Nat):async Result.Result<Homework,Text>{
