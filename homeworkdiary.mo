@@ -7,7 +7,7 @@ import Array "mo:base/Array";
 
 actor HomeworkDiary  {
 
-type Homework={
+type Homework {
 title: Text;
 description: Text;
 dueDate: Time.Time;
