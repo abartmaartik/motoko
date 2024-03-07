@@ -14,7 +14,7 @@ dueDate: Time.Time;
 completed: Bool;
 };
 
-var homeworkDiary=Buffer.Buffer<Homework>(0);
+var homeworkDiary=Buffer.Buffer<Homework>(1);
 
 public func addHomework (homework:Homework):async Nat{
     homeworkDiary.add(homework);
