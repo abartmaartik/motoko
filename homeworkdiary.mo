@@ -10,7 +10,7 @@ actor HomeworkDiary  {
 type Homework {
 title: Text;
 description: Text;
-dueDate: Time.Time;
+dueDate: Time,Time;
 completed: Bool;
 };
 
