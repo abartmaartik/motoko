@@ -18,7 +18,7 @@ actor Calculator {
     
     // Step 4 - Implement mul 
     public func mul(x : Float) : async Float {
-        counter:= counter - x;
+        counter:= counter + x;
         return counter;
     };
     
