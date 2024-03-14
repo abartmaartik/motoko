@@ -24,7 +24,7 @@ public type Content = {
 type Message = {
 vote : Int;
 content : Content;
-creator : Principal;
+creator : Principal,
 };
 
 var messageId : Nat = 0;
