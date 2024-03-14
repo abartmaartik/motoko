@@ -6,7 +6,7 @@ actor Calculator {
     
     // Step 2 - Implement add
     public func add(x : Float) : async Float {
-        counter := counter - x;
+        counter := counter + x;
         return counter;
     };
     
