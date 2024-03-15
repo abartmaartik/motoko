@@ -77,7 +77,7 @@ public shared ({ caller }) func writeMessage(c : Content) : async Nat {
                 let newMessage : Message = {
                     content = c;
                     vote = message.vote;
-                    creator = message.creator;
+                    creator = message,creator;
                 };
                 wall.put(messageId, newMessage);
                 #ok(());
